@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_monthly_payment" label="Monthly Payment" language="en" table="x_256735_tenant_tenant">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_monthly_payment</element>
+            <help/>
+            <hint/>
+            <label>Monthly Payment</label>
+            <language>en</language>
+            <name>x_256735_tenant_tenant</name>
+            <plural>Monthly Payments</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-03 13:14:15</sys_created_on>
+            <sys_id>ab334500db7b1300bef5560868961990</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Monthly Payment</sys_name>
+            <sys_package display_value="Tenant" source="x_256735_tenant">ee8df84cdbf71300bef5560868961980</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Tenant">ee8df84cdbf71300bef5560868961980</sys_scope>
+            <sys_update_name>sys_documentation_x_256735_tenant_tenant_u_monthly_payment_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-03 13:14:15</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

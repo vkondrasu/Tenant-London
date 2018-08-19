@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Inn Branch" max_length="40" name="x_256735_tenant_inn_branch" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Address" mandatory="true" max_length="1000" name="u_address" type="string"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Branch Name" mandatory="true" max_length="40" name="u_branch_name" type="string"/>
+        <element default="45710c9edb3b5300bef5560868961965" label="Branch Manager" mandatory="true" max_length="32" name="u_manager" reference="sys_user" type="reference"/>
+        <element label="Parent Inn" mandatory="true" max_length="32" name="u_parent_inn" reference="x_256735_tenant_inn" type="reference"/>
+        <index name="index">
+            <element name="u_parent_inn"/>
+        </index>
+        <index name="index2">
+            <element name="u_manager"/>
+        </index>
+    </element>
+</database>

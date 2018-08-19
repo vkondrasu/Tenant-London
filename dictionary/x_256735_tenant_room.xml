@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Room" max_length="40" name="x_256735_tenant_room" type="collection">
+        <element label="Available Beds" max_length="40" name="u_available_beds" read_only="true" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Description" max_length="40" name="u_description" type="string"/>
+        <element default="dee44052db7b5300bef5560868961965" label="Inn Branch" mandatory="true" max_length="32" name="u_inn_branch" reference="x_256735_tenant_inn_branch" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Level" mandatory="true" max_length="40" name="u_level" type="string"/>
+        <element label="Occupied Beds" max_length="40" name="u_occupied_beds" read_only="true" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Room Number" mandatory="true" max_length="40" name="u_room_number" type="string"/>
+        <element label="Total Beds" mandatory="true" max_length="40" name="u_total_beds" type="integer"/>
+        <index name="index">
+            <element name="u_inn_branch"/>
+        </index>
+    </element>
+</database>

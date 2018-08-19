@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Payment Dues" max_length="40" name="x_256735_tenant_payment_dues" type="collection">
+        <element label="Active" max_length="40" name="u_active" read_only="true" type="boolean"/>
+        <element label="Due Amount" mandatory="true" max_length="40" name="u_due_amount" type="integer"/>
+        <element label="Due Date" mandatory="true" max_length="40" name="u_due_date" type="due_date"/>
+        <element label="Paid Amount" max_length="40" name="u_paid_amount" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Remarks" max_length="40" name="u_remarks" type="string"/>
+        <element label="Tenant" mandatory="true" max_length="32" name="u_tenant" reference="x_256735_tenant_tenant" type="reference"/>
+        <index name="index">
+            <element name="u_tenant"/>
+        </index>
+    </element>
+</database>

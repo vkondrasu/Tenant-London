@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Inn" max_length="40" name="x_256735_tenant_inn" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Address" mandatory="true" max_length="1000" name="u_address" type="string_full_utf8"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Name" mandatory="true" max_length="40" name="u_name" type="string"/>
+        <element label="Owner" mandatory="true" max_length="32" name="u_owner" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="u_owner"/>
+        </index>
+    </element>
+</database>

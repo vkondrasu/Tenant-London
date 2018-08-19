@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_256735_tenant_tenant</collection>
+        <condition>current.active</condition>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Adjust available beds in room</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+	
+	if(current.active){//If the tenant is staying
+		var room = current.u_room.sys_id.toString();
+		var room_record = new GlideRecord('x_256735_tenant_room');
+		room_record.addQuery('sys_id',room);
+		room_record.query();
+
+		gs.info('room record success');
+
+		if(room_record.next()){
+			--room_record.u_available_beds;
+			++room_record.u_occupied_beds;
+			room_record.update();
+		}
+	}
+	
+	
+	//set due amount to 0
+	
+	current.u_due_amount = 0;
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-03 13:44:17</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>03f80904db7b1300bef5560868961999</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Adjust available beds in room</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Tenant" source="x_256735_tenant">ee8df84cdbf71300bef5560868961980</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Tenant">ee8df84cdbf71300bef5560868961980</sys_scope>
+        <sys_update_name>sys_script_03f80904db7b1300bef5560868961999</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-18 15:50:35</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=03f80904db7b1300bef5560868961999"/>
+</record_update>

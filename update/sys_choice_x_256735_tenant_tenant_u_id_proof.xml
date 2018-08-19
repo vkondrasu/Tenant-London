@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_id_proof" table="x_256735_tenant_tenant" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_id_proof</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Aadhar</label>
+            <language>en</language>
+            <name>x_256735_tenant_tenant</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-03 13:14:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0c438500db7b1300bef5560868961916</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-03 13:14:16</sys_updated_on>
+            <value>aadhar</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_id_proof</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>PAN Card</label>
+            <language>en</language>
+            <name>x_256735_tenant_tenant</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-03 13:14:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8c438500db7b1300bef5560868961917</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-03 13:14:16</sys_updated_on>
+            <value>pancard</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_id_proof</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Voter ID</label>
+            <language>en</language>
+            <name>x_256735_tenant_tenant</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-03 13:14:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0c438500db7b1300bef5560868961918</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-03 13:14:16</sys_updated_on>
+            <value>voterid</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_id_proof</element>
+            <name>x_256735_tenant_tenant</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-03 13:14:16</sys_created_on>
+            <sys_id>84438500db7b1300bef5560868961917</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_id_proof</sys_name>
+            <sys_package display_value="Tenant" source="x_256735_tenant">ee8df84cdbf71300bef5560868961980</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Tenant">ee8df84cdbf71300bef5560868961980</sys_scope>
+            <sys_update_name>sys_choice_x_256735_tenant_tenant_u_id_proof</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-03 13:14:16</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

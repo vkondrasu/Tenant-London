@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Tenant" max_length="40" name="x_256735_tenant_tenant" type="collection">
+        <element default="true" label="Staying" max_length="40" name="active" type="boolean"/>
+        <element label="Due Amount" max_length="40" name="u_due_amount" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Email" max_length="40" name="u_email" type="string"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="First Name" mandatory="true" max_length="40" name="u_first_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="ID Proof" mandatory="true" max_length="40" name="u_id_proof" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Aadhar" sequence="0" value="aadhar"/>
+                <element inactive_on_update="false" label="PAN Card" sequence="1" value="pancard"/>
+                <element inactive_on_update="false" label="Voter ID" sequence="2" value="voterid"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="ID Proof Number" mandatory="true" max_length="40" name="u_id_proof_number" type="string"/>
+        <element label="Joining Date" mandatory="true" max_length="40" name="u_join_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Last Name" mandatory="true" max_length="40" name="u_last_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Mobile Number" mandatory="true" max_length="40" name="u_mobile_number" type="string"/>
+        <element label="Monthly Payment" mandatory="true" max_length="40" name="u_monthly_payment" type="integer"/>
+        <element attributes="live_feed=true" label="Room" mandatory="true" max_length="32" name="u_room" reference="x_256735_tenant_room" type="reference"/>
+        <element label="Vacating Date" max_length="40" name="u_vacating_date" type="glide_date"/>
+        <index name="index">
+            <element name="u_room"/>
+        </index>
+    </element>
+</database>

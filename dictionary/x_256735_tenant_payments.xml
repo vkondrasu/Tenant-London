@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Payments" max_length="40" name="x_256735_tenant_payments" type="collection">
+        <element label="Amount" mandatory="true" max_length="40" name="u_amount" type="integer"/>
+        <element label="Date" mandatory="true" max_length="40" name="u_date" type="glide_date"/>
+        <element label="Tenant" mandatory="true" max_length="32" name="u_tenant" reference="x_256735_tenant_tenant" type="reference"/>
+        <index name="index">
+            <element name="u_tenant"/>
+        </index>
+    </element>
+</database>

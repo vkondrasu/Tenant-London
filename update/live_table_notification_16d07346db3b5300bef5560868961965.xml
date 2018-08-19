@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="live_table_notification">
+    <live_table_notification action="INSERT_OR_UPDATE">
+        <action_insert>false</action_insert>
+        <action_update>false</action_update>
+        <active>true</active>
+        <before_script><![CDATA[/**
+  * Optional script to set variables or cancel notification
+  * global variables
+  *      current is the current GlideRecord object
+  *      changedFields is an ArrayList of fields changed on submit, use changedFields.contains('fieldname') to check for change
+  *      set answer = false to cancel the notification
+  *      set profileSource to a GlideRecord to define the profile that is posting the message
+  *      set profileID to a live_profile sys_id to define the profile that is posting the message, by default it is the current record. Overrides profileSource if specified.
+  *      set any variable name and access the value in the message by using ${myVariableName}
+  */]]></before_script>
+        <condition/>
+        <description/>
+        <document_groups/>
+        <feed_group/>
+        <message/>
+        <post_feed>false</post_feed>
+        <post_rooms>false</post_rooms>
+        <sys_class_name>live_table_notification</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-10 07:00:49</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>16d07346db3b5300bef5560868961965</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Tenant" source="x_256735_tenant">ee8df84cdbf71300bef5560868961980</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Tenant">ee8df84cdbf71300bef5560868961980</sys_scope>
+        <sys_update_name>live_table_notification_16d07346db3b5300bef5560868961965</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-10 07:00:49</sys_updated_on>
+        <table>x_256735_tenant_room</table>
+    </live_table_notification>
+</record_update>
