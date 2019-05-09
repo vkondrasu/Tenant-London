@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Guest" max_length="40" name="x_256735_tenant_guest" type="collection">
-        <element default="true" label="Active" max_length="40" name="u_active" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="New Field" max_length="40" name="new_field" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" default="true" label="Active" max_length="40" name="u_active" type="boolean"/>
         <element label="Check-in Date" mandatory="true" max_length="40" name="u_checkin_date" type="glide_date"/>
         <element label="Check-out Date" max_length="40" name="u_checkout_date" type="glide_date_time"/>
         <element attributes="edge_encryption_enabled=true" label="Comment" max_length="4000" name="u_comment" type="journal"/>
-        <element label="Rent/ Day" mandatory="true" max_length="40" name="u_day_pay" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Rent/ Day" mandatory="true" max_length="40" name="u_day_pay" type="integer"/>
         <element attributes="edge_encryption_enabled=true" label="email" mandatory="true" max_length="40" name="u_email" type="string"/>
         <element attributes="edge_encryption_enabled=true" display="true" label="First Name" mandatory="true" max_length="40" name="u_first_name" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Last Name" mandatory="true" max_length="40" name="u_last_name" type="string"/>
-        <element label="Total Due" max_length="40" name="u_total_due" read_only="true" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Total Due" max_length="40" name="u_total_due" read_only="true" type="integer"/>
     </element>
 </database>

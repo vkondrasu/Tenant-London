@@ -1,15 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="u_parent_inn" table="x_256735_tenant_inn_branch">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="new_field" table="x_256735_tenant_guest">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes/>
+        <attributes>edge_encryption_enabled=true</attributes>
         <audit>false</audit>
-        <calculation/>
-        <choice>0</choice>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Parent Inn</column_label>
+        <column_label>New Field</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -22,20 +27,20 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>u_parent_inn</element>
+        <element>new_field</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="Reference">reference</internal_type>
-        <mandatory>true</mandatory>
-        <max_length>32</max_length>
-        <name>x_256735_tenant_inn_branch</name>
+        <internal_type display_value="Integer">integer</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <name>x_256735_tenant_guest</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference display_value="" name="x_256735_tenant_inn">x_256735_tenant_inn</reference>
+        <reference/>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
@@ -47,16 +52,16 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-08-09 14:06:54</sys_created_on>
-        <sys_id>ae54faf9db113300f975b080399619e1</sys_id>
+        <sys_created_on>2019-05-09 17:39:32</sys_created_on>
+        <sys_id>08737ef5db113300f975b08039961994</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Parent Inn</sys_name>
+        <sys_name>New Field</sys_name>
         <sys_package display_value="Tenant" source="x_256735_tenant">ee8df84cdbf71300bef5560868961980</sys_package>
         <sys_policy/>
         <sys_scope display_value="Tenant">ee8df84cdbf71300bef5560868961980</sys_scope>
-        <sys_update_name>sys_dictionary_x_256735_tenant_inn_branch_u_parent_inn</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2019-05-09 17:43:13</sys_updated_on>
+        <sys_update_name>sys_dictionary_x_256735_tenant_guest_new_field</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-09 17:39:32</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

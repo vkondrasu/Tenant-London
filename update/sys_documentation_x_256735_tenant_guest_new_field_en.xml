@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="u_date" label="Date" language="en" table="x_256735_tenant_payments">
+    <sys_documentation element="new_field" label="New Field" language="en" table="x_256735_tenant_guest">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>u_date</element>
+            <element>new_field</element>
             <help/>
             <hint/>
-            <label>Date</label>
+            <label>New Field</label>
             <language>en</language>
-            <name>x_256735_tenant_payments</name>
-            <plural>Dates</plural>
+            <name>x_256735_tenant_guest</name>
+            <plural>New Fields</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-08-03 14:53:59</sys_created_on>
-            <sys_id>3a543ef9db113300f975b0803996192c</sys_id>
+            <sys_created_on>2019-05-09 17:39:32</sys_created_on>
+            <sys_id>4683f679db113300f975b08039961953</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>Date</sys_name>
+            <sys_name>New Field</sys_name>
             <sys_package display_value="Tenant" source="x_256735_tenant">ee8df84cdbf71300bef5560868961980</sys_package>
             <sys_policy/>
             <sys_scope display_value="Tenant">ee8df84cdbf71300bef5560868961980</sys_scope>
-            <sys_update_name>sys_documentation_x_256735_tenant_payments_u_date_en</sys_update_name>
+            <sys_update_name>sys_documentation_x_256735_tenant_guest_new_field_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-08-03 14:53:59</sys_updated_on>
+            <sys_updated_on>2019-05-09 17:39:32</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

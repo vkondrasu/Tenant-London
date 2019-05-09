@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="3564323ddb113300f975b0803996198f" sys_domain="global" table="x_256735_tenant_payment_dues" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2019-05-09 17:43:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3164323ddb113300f975b08039961990</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_256735_tenant_payment_dues" name="x_256735_tenant_payment_dues" sys_domain="global" view="Default view">3564323ddb113300f975b0803996198f</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_256735_tenant_payment_dues" sys_domain="global" view="Default view">36b61d0cdb7b1300bef55608689619dc</sys_ui_section>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2019-05-09 17:43:20</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2019-05-09 17:43:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b964323ddb113300f975b08039961990</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_256735_tenant_payment_dues" name="x_256735_tenant_payment_dues" sys_domain="global" view="Default view">3564323ddb113300f975b0803996198f</sys_ui_form>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_256735_tenant_payment_dues" sys_domain="global" view="Default view">7797194cdb7b1300bef55608689619a4</sys_ui_section>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2019-05-09 17:43:20</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_256735_tenant_payment_dues</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2019-05-09 17:43:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3564323ddb113300f975b0803996198f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_256735_tenant_payment_dues</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Tenant" source="x_256735_tenant">ee8df84cdbf71300bef5560868961980</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Tenant">ee8df84cdbf71300bef5560868961980</sys_scope>
+            <sys_update_name>sys_ui_form_sections_3564323ddb113300f975b0803996198f</sys_update_name>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2019-05-09 17:43:20</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

@@ -48,15 +48,15 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-08-03 13:14:15</sys_created_on>
-        <sys_id>27334500db7b1300bef5560868961995</sys_id>
+        <sys_id>47543ef9db113300f975b08039961976</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Vacating Date</sys_name>
         <sys_package display_value="Tenant" source="x_256735_tenant">ee8df84cdbf71300bef5560868961980</sys_package>
         <sys_policy/>
         <sys_scope display_value="Tenant">ee8df84cdbf71300bef5560868961980</sys_scope>
         <sys_update_name>sys_dictionary_x_256735_tenant_tenant_u_vacating_date</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-03 13:14:15</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2019-05-09 17:43:17</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

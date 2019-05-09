@@ -3,7 +3,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>sys_id</element>
-            <list_id display_value="x_256735_tenant_payments" element="NULL" name="x_256735_tenant_payments" parent="NULL" relationship="NULL" sys_domain="global" view="734a11515d121300651727c3e282e80d">970eee48db002300bef5560868961985</list_id>
+            <list_id display_value="x_256735_tenant_payments" element="NULL" name="x_256735_tenant_payments" parent="NULL" relationship="NULL" sys_domain="global" view="f83811707420330078509adcc48c879b">970eee48db002300bef5560868961985</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
@@ -40,7 +40,7 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2018-08-16 07:16:36</sys_updated_on>
             <sys_user/>
-            <view display_value="Reference List" name="sys_ref_list">734a11515d121300651727c3e282e80d</view>
+            <view display_value="Reference List" name="sys_ref_list">f83811707420330078509adcc48c879b</view>
             <view_name/>
         </sys_ui_list>
     </sys_ui_list>
